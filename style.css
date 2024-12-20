@@ -10,7 +10,7 @@ body{
     width: 100%;
 }
 
-
+/* 
 h1{
 
     font-size: 100px;
@@ -20,10 +20,71 @@ h1{
     text-align: center;
     font-style: italic;
 
+} */
 
-    
+/* 
+div{
+    height: 200px;
+    width: 200px;
+    background: blue;
 
 }
+
+ h1{
+    color: red;
+
+} 
+ 
+#hero{
+    color: blueviolet;
+} 
+
+
+#box2{
+    background-color: red;
+} */
+
+body{
+    background-color: #ddf0bf; 
+}
+
+video{
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:75px;
+    text-align: center;
+    color: white;
+    font-family: dancing script;
+    line-height: 1;
+    text-shadow: 5px 5px 10px rgb(221, 27, 27);
+}       
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-family: helvetica;
+    padding: 30px;
+    background-color: #b0e26c;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+}
+
+
 
 
 
