@@ -1,0 +1,13 @@
+h2{
+    background-color: rgb(244, 53, 53);
+    color: rgb(241, 244, 242);
+    border: 2px solid rgb(17, 18, 17);
+
+    /* padding : TOP  RIGHT  BOTTOM  LEFT; */
+   /* margin : TOP  RIGHT  BOTTOM  LEFT; */
+
+
+    padding-left: 20px;
+    margin-left: 40px ;  
+    
+}
