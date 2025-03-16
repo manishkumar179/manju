@@ -1,0 +1,64 @@
+/* 1. static */
+/* 
+div{
+    position:static;
+    background-color:aqua;
+    color: blue;
+    border: 2px solid red;
+} */
+
+/*  2. relative */
+/* 
+div{
+    position:relative;
+    background-color:aqua;
+    top: 15px;
+    left: 12px;
+    color: blue;
+    border: 2px solid red;
+} */
+
+
+/*  3. fixed */
+/* 
+div{
+    position:fixed;
+    background-color:aqua;
+    color: blue;
+    border: 2px solid red;
+} */
+
+
+/*  4. absolute */
+
+/* 
+#parent{
+    position: relative;
+    height: 150px;
+    width: 250px;
+    border: 2px dashed green;
+}
+
+.Position{
+    position:absolute;
+    background-color:aqua;
+    color: blue;
+    top: 10px;
+    left: 10px; 
+    border: 2px solid red;
+} */
+
+
+
+/*  5. sticky */
+
+.Position{
+    position:sticky;
+    background-color:aqua;
+    color: blue;
+    border: 2px solid red;
+    top: 20px;
+    left: 50px;
+}
+
+
