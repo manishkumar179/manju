@@ -1,14 +1,14 @@
 /* 1. static */
-/* 
+ 
 div{
     position:static;
     background-color:aqua;
     color: blue;
     border: 2px solid red;
-} */
+} 
 
 /*  2. relative */
-/* 
+ 
 div{
     position:relative;
     background-color:aqua;
@@ -16,22 +16,22 @@ div{
     left: 12px;
     color: blue;
     border: 2px solid red;
-} */
+} 
 
 
 /*  3. fixed */
-/* 
+ 
 div{
     position:fixed;
     background-color:aqua;
     color: blue;
     border: 2px solid red;
-} */
+} 
 
 
 /*  4. absolute */
 
-/* 
+ 
 #parent{
     position: relative;
     height: 150px;
