@@ -1,0 +1,150 @@
+/* hover state:- 
+     >>Pointing the cursor on the button
+*/
+ 
+ 
+button:hover{
+    background-color: rgba(10, 11, 3, 0.881);
+    color: rgb(244, 246, 242);
+     cursor: pointer; 
+}  
+
+
+
+/* active state: */
+ 
+button:active{
+    border: 5px solid red;   
+} 
+
+
+
+/* Focus state:-
+
+    >> Indicating you already visited that button / or opened or clicked the btn
+    
+*/
+  
+button:focus{
+    background-color: pink;
+} 
+
+ 
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+
+} 
+ 
+span{
+    padding: 2px;
+    margin: 2px;
+    background-color: yellow;
+} 
+
+
+
+/* First child */
+
+  
+span:first-child{
+    background-color: red;
+} 
+
+
+ 
+/* Apply for last child */
+
+ 
+span:last-child{
+    background-color: blue;
+}
+  
+
+ 
+
+/* Apply for nth position child */
+
+
+span:nth-child(9){
+    background-color: red;
+ } 
+
+
+ /* Apply only for even or odd child number*/
+
+ 
+span:nth-child(even){
+    background-color: aqua;
+} 
+
+
+
+
+
+                                           /* Pseudo Element */
+
+
+
+
+    /*Pseudo Element :: Before  */
+ 
+ 
+h1::before{
+ content: "Hello";
+ background-color: yellow;
+ color: brown;
+}  
+
+
+    /* Pseudo Element :: After */
+
+ 
+h1::after{
+    content: " Good Morning";
+    background-color: aqua;
+    color: blue;
+} 
+
+
+.shape{
+    margin: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+     border-radius: 50%;
+     position: relative;                 /* we use it to make a circle */
+}
+
+.shape::before{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    top: 0;
+    left: 0;
+    content:" ";
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+
+
+/*   px,%,em,rem,vh,vw   */
+
+
+
+.shape::after{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    content:" ";
+    bottom: 0;
+    /* top: 0; */
+    right: 0;
+    position: absolute;
+    border-radius: 50%;
+}
