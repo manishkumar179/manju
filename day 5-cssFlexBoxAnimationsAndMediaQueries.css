@@ -1,0 +1,70 @@
+  .parent{ 
+    /* height: 1150px; */
+     background-color:black ;
+    display: flex; 
+
+    /* row, roe-reverse, column, column-reverse */
+
+    flex-direction: center;
+    gap: 10px;
+
+    /*  row : flex-start, flex-end, center , space-around, space-between, space-evenly*/
+
+    justify-content: center;
+    
+    /* column : flex-start, flex-end, center , stretch(if we wnt to use it then we have to
+     /* remove the height of child)*/
+ 
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+
+} 
+
+.child{ 
+    
+    height: 100px;
+     /* width: 100px;   */
+    flex: 1;   
+    background-color:white;
+    border: 2px solid red;
+    /* margin: 10px; */
+     justify-content: center;
+} 
+
+
+
+/* Animations */
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+
+    /* Transition property */
+
+    /* transition-delay: 250ms; */
+    /* transition-duration: 300ms; */
+    /* all */
+    /* transition-property:background-color; */
+    /* linear , ease ,ease-in, ease-out, ease-in-out  */
+    /* transition-timing-function: ease-in-out; */
+
+    transition: all ease-in-out 250ms 500ms;
+
+}
+
+
+button:hover{
+    background-color: aqua;
+    color: red;
+    cursor: pointer;
+
+}
+
+
+
