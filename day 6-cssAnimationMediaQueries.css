@@ -1,0 +1,49 @@
+ .box{ 
+     background-color: black;
+     height:100vh ;
+     /* width: 100vw; */
+     
+
+}
+ 
+.ball{
+    
+      height: 120px;
+      width: 120px;
+      background-color: yellow;
+      border-radius: 100%;
+
+}
+
+.ball:hover{
+    animation: moveTheBall 5s ease-in-out forwards;
+
+}
+
+@keyframes moveTheBall {
+    25%{
+        transform: translate(400%,0%);
+    }
+    50%{
+        transform: translate(400%,400%);
+        background-color: aqua;
+        border-radius: 12%;
+    }
+    75%{
+        transform: translate(0,400%);
+        background-color: white;
+        border-radius: 25%;
+    }
+    100%{
+        transform: translate(0,0);
+    }
+    
+}
+
+/* We can also apply position to start the circle from any other position 
+          
+       >>We have to use position relative in parent(box) and position absolute in child(ball)
+
+*/
+
+
